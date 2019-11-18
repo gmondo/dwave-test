@@ -61,7 +61,7 @@ The matplotlib is suggested only to better understand results visualizing them.
 
 ### <a name="dwconf">D-Wave configuration</a>
 
-Having installed per dwave-ocean-sdk you can launch the following command:
+Having installed the dwave-ocean-sdk you can launch the following command:
 
 ```
 dwave config create
@@ -160,7 +160,7 @@ from dwave.system.composites import EmbeddingComposite
 from util_test import make_rnd_graph, plot_graph, get_qubo, get_colors, check_result, get_solution
 ```
 
-Last import includes the functions shown hereafter.
+The last import includes the functions shown hereafter.
 Now define the number of vertices N, the colors and 
 set a seed for random numbers
 allowing you to repeat the same experiment:
@@ -170,7 +170,7 @@ N=25
 palette=['red', 'green', 'blue', 'gray']
 K=len(palette)
 random.seed(42)
-``
+```
 
 Now you can define a function
 to create random graphs with a given number of
