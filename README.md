@@ -336,6 +336,8 @@ plot_graph(N, E, qa_clrs, palette)
 
 ### <a name="refs">References</a>
 
+[A Tutorial on Formulating and Using QUBO Models by Fred Glover, Gary Kochenberger, Yu Du](https://arxiv.org/abs/1811.11538)
+
 [OpenJij D-Wave Ocean SDK tutorial](https://openjij.github.io/OpenJijTutorial/_build/html/ja/4-DWaveOceanSDK.html)
 
 [PyQubo graph coloring problem](https://github.com/recruit-communications/pyqubo/blob/master/notebooks/graph_coloring.ipynb)
